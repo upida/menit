@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Menit</title>
+  </head>
+
+  <body>
+    <div class="wrapper">
+      <div class="col-4 carousel">
+        <div class="page">
+          <div class="menu">
+            <label class="i-menu">
+              1 Menit
+              <input type="radio" name="pilih" value="1" checked />
+              <span class="checkmark"></span>
+            </label>
+          </div>
+          <div class="menu">
+            <label class="i-menu">
+              10 Menit
+              <input type="radio" name="pilih" value="10" />
+              <span class="checkmark"></span>
+            </label>
+          </div>
+          <div class="menu">
+            <label class="i-menu">
+              100 Menit
+              <input type="radio" name="pilih" value="100" />
+              <span class="checkmark"></span>
+            </label>
+          </div>
+        </div>
+      </div>
+      <div class="col-8">
+        <div id="content"></div>
+      </div>
+    </div>
+    <script src="jquery-3.4.1.min.js"></script>
+    <script src="script.js"></script>
+  </body>
+</html>
